@@ -1,0 +1,49 @@
+mapping code respon
+
+FE <=> PDAM Ta /Bo
+
+00 = 11(request sukses) dan 14(payment sukses)
+14 = 2 (no pelanggan salah) dan 3(no pelanggan tidak ditemukan)
+91 = 4 (gagal koneksi ke data base) dan  5 (inquery data pelanggan gagal)
+86 = 10(Payment gagal) dan 12 (payment gagal harap request ulang)
+88 = 7 (tagihan sudah lunas di tempat lain) dan 15 (id pelanggan sudah lunas di pos)
+87 = 9 (harap bayar di kantor pdam) dan 8 (Tidak ada tagihan)
+
+
+00 = 9
+14 = 1,4
+91 = 2 , 6, 7,10,11
+86 = 12,13,14
+88
+1. SALAH NOMOR PELANGGAN ATAU BELUM DI SET
+                   2. KONEKSI KE DATABASE GAGAL
+                   3. GAGAL EKSEKUSI QUERY DATA PELANGGAN: ....
+                   4. TIDAK DITEMUKAN NOMOR PELANGGAN ....
+                   5. PELANGGAN NON-AKTIF
+                   6. GAGAL EKSEKUSI QUERY DATA TAGIHAN (1)
+                   7. GAGAL EKSEKUSI QUERY DATA TAGIHAN (2)
+                   8. TIDAK ADA TAGIHAN
+                   9. SUKSES
+                   10. GAGAL EKSEKUSI QUERY DATA TAGIHAN NON-AIR (1)
+                   11. GAGAL EKSEKUSI QUERY DATA TAGIHAN NON-AIR (2)
+                   12. GAGAL UPDATE DATA TAGIHAN
+                   13. GAGAL UPDATE DATA TUNGGAKAN
+                   14. GAGAL UPDATE DATA TAGIHAN NON-AIR
+
+
+                   code result untuk pdam bondowoso dan tulungagung
+                   "1"  = "KEY API TIDAK VALID.",
+                   "2"  = "NO PELANGGAN SALAH (TIDAK VALID).",
+                   "3"  = "NO PELANGGAN TIDAK DITEMUKAN.",
+                   "4"  = "GAGAL KONEKSI KE DATABASE.",
+                   "5"  = "INQUERY DATA PELANGGAN GAGAL.",
+                   "6"  = "INQUERY DATA TAGIHAN GAGAL.",
+                   "7"  = "IDPEL TELAH LUNAS DI TEMPAT LAIN.",
+                   "8"  = "TIDAK ADA TAGIHAN.",
+                   "9"  = "HARAP BAYAR DI KANTOR PDAM.",
+                   "10" = "PAYMENT GAGAL.",
+                   "11" = "REQUEST SUKSES.",
+                   "12" = "PAYMENT GAGAL, HARAP REQUEST ULANG.",
+                   "13" = "NILAI BAYAR KURANG.",
+                   "14" = "PAYMENT SUKSES.",
+                   "15" = "IDPEL TELAH LUNAS DI POS"

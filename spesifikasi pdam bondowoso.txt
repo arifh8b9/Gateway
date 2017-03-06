@@ -1,0 +1,32 @@
+"1"  = "KEY API TIDAK VALID.",
+"2"  = "NO PELANGGAN SALAH (TIDAK VALID).",
+"3"  = "NO PELANGGAN TIDAK DITEMUKAN.",
+"4"  = "GAGAL KONEKSI KE DATABASE.",
+"5"  = "INQUERY DATA PELANGGAN GAGAL.",
+"6"  = "INQUERY DATA TAGIHAN GAGAL.",
+"7"  = "IDPEL TELAH LUNAS DI TEMPAT LAIN.",
+"8"  = "TIDAK ADA TAGIHAN.",
+"9"  = "HARAP BAYAR DI KANTOR PDAM.",
+"10" = "PAYMENT GAGAL.",
+"11" = "REQUEST SUKSES.",
+"12" = "PAYMENT GAGAL, HARAP REQUEST ULANG.",
+"13" = "NILAI BAYAR KURANG.",
+"14" = "PAYMENT SUKSES.",
+
+field nya
+kode
+idpel
+nosam
+nama
+alamat
+jumlahrek
+bulan
+tahun
+norek
+stand
+pakai
+tagair
+beban
+denda
+tagnonair
+jumlah

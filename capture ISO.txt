@@ -1,0 +1,46 @@
+{-----------Proses Inquery --------------------}
+Message ISO      = 0200723A40010841800219983390472111111111138000000000000000010240411510003201108511024102560101132111111111   98339047299999998339047200510005360003267
+MTI              = 0200
+Primary Bitmap   = 723A400108418002 --> (Binary : 0111001000111010010000000000000100001000010000011000000000000010)
+DE 2             = 9833904721111111111
+DE 3             = 380000
+DE 4             = 000000000000
+DE 7             = 1024041151
+DE 11            = 000320
+DE 12            = 110851
+DE 13            = 1024
+DE 15            = 1025
+DE 18            = 6010
+DE 32            = 32111111111
+DE 37            =    983390472
+DE 42            = 999999983390472
+DE 48            = 10005
+DE 49            = 360
+DE 63            = 267
+Time Proses      = 24-10-2013 11:08:51.777
+
+
+{-----Respon dari Mitra---------------}
+Message ISO      = 0210723A40010A41800E19983390472111111111138000000000000000010240408510003201108511024102560101132111111111   9833904720099999998339047216910005|Ny. Kristina Hd, Dra|Perumh Kbnagung XV/1|IIIA1|2^201308|664216|671254|7038|13724|10000|0|25000|48724|2000|201309|671254|679121|7867|15341|10000|0|5000|30341|2000|36014520|No. Pelanggan|Nama|Alamat|Gol Tarif|JumlahTagihan^Bulan Rek|Stan Awal|Stan Akhir|Pemakaian|Harga Air|Beban|Materai|Denda|Total Tagihan|ADM POS042Bayarlah Tepat pada waktunya , PDAM Jember003267
+MTI              = 0210
+Primary Bitmap   = 723A40010A41800E --> (Binary : 0111001000111010010000000000000100001010010000011000000000001110)
+DE 2             = 9833904721111111111
+DE 3             = 380000
+DE 4             = 000000000000
+DE 7             = 1024040851
+DE 11            = 000320
+DE 12            = 110851
+DE 13            = 1024
+DE 15            = 1025
+DE 18            = 6010
+DE 32            = 32111111111
+DE 37            =    983390472
+DE 39            = 00
+DE 42            = 999999983390472
+DE 48            = 10005|Ny. Kristina Hd, Dra|Perumh Kbnagung XV/1|IIIA1|2^201308|664216|671254|7038|13724|10000|0|25000|48724|2000|201309|671254|679121|7867|15341|10000|0|5000|30341|2000|
+DE 49            = 360
+DE 61            = 20|No. Pelanggan|Nama|Alamat|Gol Tarif|JumlahTagihan^Bulan Rek|Stan Awal|Stan Akhir|Pemakaian|Harga Air|Beban|Materai|Denda|Total Tagihan|ADM POS
+DE 62            = Bayarlah Tepat pada waktunya , PDAM Jember
+DE 63            = 267
+Time Proses      = 24-10-2013 11:09:09.394
+
